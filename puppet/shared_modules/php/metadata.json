@@ -1,0 +1,45 @@
+{
+  "author": "Matthias Saou",
+  "version": "1.0.0",
+  "license": "Apache 2.0",
+  "description": "Install and configure PHP for any of CLI, Apache httpd module and FastCGI.",
+  "summary": "PHP module",
+  "project_page": "https://github.com/thias/puppet-php",
+  "types": [
+
+  ],
+  "name": "thias-php",
+  "source": "git://github.com/thias/puppet-php",
+  "dependencies": [
+
+  ],
+  "checksums": {
+    "tests/module/ini.pp": "ba5ad8ccc8bf36c6a4f513c8498262d8",
+    "manifests/ini.pp": "debdbf1fe503148d56d777ca5b417e22",
+    "tests/module.pp": "461e492ab58e9777a3b09e7da5e69c54",
+    "tests/fpm/conf.pp": "8ab22d2e1e3821072e57c30734de70cd",
+    "templates/module.ini.erb": "686d6f215a69872c80c26c545884b643",
+    "LICENSE": "99219472697a01561e7630d63aaecdc1",
+    "Modulefile": "9c2c32a01ae954e6c260a99c8931e475",
+    "tests/mod_php5.pp": "ff071f8ba0eb1a2b90e71a6de246df30",
+    "tests/cli.pp": "4acf74bcea023f76f2e9eb7acf38bbb3",
+    "templates/httpd/php.conf.erb": "67cdc86b03fefa7cfb2631c5adc7e94f",
+    "manifests/fpm/conf.pp": "14890bf4fa3d2d945fc6a35610707ed8",
+    "templates/php.ini-el6.orig": "655c6c502c1367585d8a29935861cf7d",
+    "templates/php.ini-el6.erb": "a935c0a8f5032facff235ed795619251",
+    "README.md": "31f60faad4fc6b4916b86d598bf13e5f",
+    "manifests/params.pp": "d2354dfd6c624c2accaef32e01bfa6a9",
+    "ChangeLog": "e30fe1d5caddf3fbd5b897ce99dd78d7",
+    "manifests/module/ini.pp": "d768f6ccc7df596299b371a5f2db91f7",
+    "manifests/mod_php5.pp": "ca72872e766622350ff594bc316fded5",
+    "manifests/cli.pp": "90d7ed44c5a73616e3ba1e0ebab6ab4d",
+    "templates/fpm/pool.conf.erb": "a023063bf5ff5256296f6ff7c836dba6",
+    "tests/fpm/daemon.pp": "6804b102876223b40b3382668bf61434",
+    "templates/httpd/php.conf.orig": "50015ff8bb23090aae4f8556987c5e40",
+    "manifests/module.pp": "52f951e851c988f21d0da8949c66102a",
+    "manifests/common.pp": "855d76d4f54cac52df13d766a4ecade6",
+    "tests/ini.pp": "6ccaff70f981929198f22e398beca6ff",
+    "templates/fpm/php-fpm.conf.erb": "9fe5a2a3844bf562099b60bcfe34b42c",
+    "manifests/fpm/daemon.pp": "c02bc38a07109364fc10f3ea5dabf79c"
+  }
+}

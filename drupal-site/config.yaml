@@ -1,0 +1,16 @@
+vagrantfile-local:
+  vm:
+    box: centos64
+    box_url: http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210.box
+    hostname: drupal.local
+    memory: 1024
+    cpus: 1
+    network:
+      private_network: 192.168.33.10
+      forwarded_port:
+        http:
+          host: '8081'
+          guest: '80'
+        https:
+          host: '4297'
+          guest: '443'

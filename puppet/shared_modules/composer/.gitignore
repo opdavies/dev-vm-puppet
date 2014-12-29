@@ -1,0 +1,9 @@
+spec/fixtures/modules/*
+.bundle/
+vendor/
+Gemfile.lock
+pkg/
+modules/
+.vagrant
+.ruby-version
+metadata.json
