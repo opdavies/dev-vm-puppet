@@ -11,7 +11,8 @@ Vagrant.configure("2") do |config|
   config.vm.box = "#{data['vm']['box']}"
   config.vm.box_url = "#{data['vm']['box_url']}"
   config.vm.host_name = "#{data['vm']['hostname']}"
-  config.vm.synced_folder "drupal-site/docroot", "/var/www/html/drupal", :nfs => true
+
+  config.vm.synced_folder "drupal-site/htdocs", "/var/www/html/drupal", :nfs => true
 
   config.vm.provider "virtualbox" do |config|
     config.customize [
